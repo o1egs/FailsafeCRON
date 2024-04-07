@@ -38,7 +38,7 @@ services:
       redis:
         condition: service_healthy
     deploy:
-      replicas: 2
+      replicas: 3
 networks:
   app_network:
     driver: bridge

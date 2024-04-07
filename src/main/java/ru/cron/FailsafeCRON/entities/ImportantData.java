@@ -6,11 +6,10 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 
-import java.time.LocalDate;
 import java.time.LocalTime;
 
 @Entity
-@Table(name = "important data")
+@Table(name = "data")
 @Getter
 @Setter
 @NoArgsConstructor
