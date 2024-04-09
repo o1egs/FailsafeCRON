@@ -13,6 +13,3 @@ spring:
     redis:
       host: "localhost"
       port: 6379
-  autoconfigure:
-    exclude:
-      - org.redisson.spring.starter.RedissonAutoConfigurationV2
